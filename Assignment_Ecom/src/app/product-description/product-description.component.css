@@ -1,0 +1,42 @@
+.product-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .custom-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card-body {
+    padding: 10px;
+  }
+  
+  .custom-card-title {
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .custom-card-text {
+    color: #444;
+  }
+  
+  .custom-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .custom-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,12 @@
+<div class="container d-flex justify-content-center align-items-center" style="height: 30vh;">
+  <div class="card position-relative">
+    <button class="btn btn-close" (click)="redirectToCart()">&times;</button>
+    <div class="card-body">
+      <h4 class="card-title">Coupon Code</h4>
+      <h5 class="card-text">SUMMERSALE10</h5>
+      <p>Use this coupon code for getting 10% discount on your purchase</p>
+      <button (click)="saveCoupon('SUMMERSALE10')" class="btn btn-primary">Apply Coupon</button>
+      <button (click)="redirectToCart()" class="btn btn-secondary ">Exit</button>
+    </div>
+  </div>
+</div>

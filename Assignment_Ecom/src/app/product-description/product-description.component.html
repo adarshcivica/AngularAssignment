@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="my-4 product-title">{{ product.name }}</h1>
+  <div class="custom-card">
+    <div class="custom-card-body">
+      <h2 class="custom-card-title">Product Description</h2>
+      <p class="custom-card-text">Price: {{ product.price | currency: 'USD' : 'symbol' : '2.2-2' }}</p>
+      <p class="custom-card-text">{{ product.description }}</p>
+      <p class="custom-card-text">{{ product.category }}</p>
+    </div>
+    <button class="custom-button" (click)="addToCart(product)" routerLink="/store">
+      Add To Cart
+    </button>
+  </div>
+</div>
